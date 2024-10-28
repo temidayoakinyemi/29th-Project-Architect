@@ -1,0 +1,274 @@
+.ourServices {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #191919;
+  background-size: cover;
+  background-position: center;
+  margin-top: 200px;
+}
+
+.ourServices-div {
+  max-width: 1240px;
+  height: 316px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+.ourServices-h1 {
+  max-width: 289px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.ourServices-p {
+  max-width: 415px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #191919cc;
+}
+
+.ourServices-input {
+  width: 281px;
+  background: whitesmoke;
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+  resize: none;
+}
+
+.btn-2 {
+  background: #212121;
+  color: #fff;
+  width: 153px;
+  height: 45px;
+  margin-left: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ------------ media query ----------- */
+
+@media (max-width: 850px) {
+  .ourServices-div {
+    width: 500px;
+    height: 420px;
+    display: block;
+  }
+  .btn-2 {
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 30%;
+  }
+}
+
+@media (max-width: 650px) {
+  .ourServices-div {
+    width: 330px;
+    height: 420px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: -15px;
+  }
+}
+
+.ourServices-h12 {
+  font-size: 58px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+.ourServices-p2 {
+  max-width: 415px;
+  font-weight: 400;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.btn-3 {
+  width: 153px;
+  height: 49px;
+  font-size: 16px;
+  cursor: pointer;
+  background: none;
+  color: #efefef;
+  border: 2px solid #efefef;
+  align-items: center;
+  justify-content: center;
+}
+
+.ourService-btn-p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.archi-design {
+  width: 280px;
+  height: 220px;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 9%;
+  background-color: #1f1f1f;
+  margin-left: -40px;
+}
+
+.archi-h1 {
+  max-width: 344px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.archi-p {
+  max-width: 446px;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-top: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  opacity: 70%;
+}
+
+.all-archi {
+  display: flex;
+  margin-top: 50px;
+}
+
+.all-archi-2 {
+  display: block;
+}
+
+.all-all-archi {
+  display: flex;
+}
+
+.paint {
+  width: 120px;
+  height: 120px;
+}
+
+.next-btn,
+.back-btn {
+  right: 0;
+  margin-left: 20px;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #212ea0;
+}
+
+.image-all {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.back-btn {
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden;
+}
+
+.slider ul {
+  display: flex;
+  width: 200%;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.slider ul li {
+  list-style: none;
+  width: 50%;
+  padding: 20px;
+}
+
+.slide {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  line-height: 1.4;
+}
+
+@media (max-width: 650px) {
+  .ourServices-h12 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .ourServices-p2 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: #ffffff;
+  }
+
+  .btn-3 {
+    width: 123px;
+    height: 39px;
+    font-size: 16px;
+    cursor: pointer;
+    background: none;
+    color: #efefef;
+    border: 2px solid #efefef;
+    margin-top: 5px;
+  }
+
+  .ourService-btn-p {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px){
+  .testimonials{
+    padding: 0 40px;
+  }
+  .next-btn, .back-btn {
+    padding: 10px;
+    width: 35px;
+  }
+
+  .testimonials ul li{ 
+    padding: 10px;
+  }
+
+  .slide {
+    padding: 10px;
+  }
+
+  .slide img {
+    width: 100px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .archi-h1 {
+    font-size: 20px;
+     margin-top: -1px;
+  }
+  .archi-p {
+    font-size: 12px; 
+    margin-top: -5px;
+  }
+}
+

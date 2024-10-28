@@ -1,0 +1,164 @@
+.workimg {
+  margin-top: 200px;
+}
+
+.workh1 {
+  font-size: 58px;
+  color: #191919;
+  font-size: 400;
+}
+
+.workbrief {
+  width: 194px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: #ffffff;
+}
+
+.workp {
+  font-size: 22px;
+  color: #000e33;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.workshout {
+  background-color: #191919;
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  padding: 15px;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+
+.allworkpshout {
+  display: flex;
+}
+
+.workshout-1 {
+  background-color: #ffffff;
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.all-workimg {
+  display: flex;
+}
+
+.allwork {
+  margin-top: 230px;
+  margin-left: 150px;
+}
+
+.allimgwork {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.playdiv {
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.playh {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000000;
+  margin-left: 20px;
+}
+
+.allplay {
+  display: flex;
+  margin-top: 150px;
+}
+
+.playp {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 33px;
+  color: #191919cc;
+  opacity: 80%;
+  margin-top: 50px;
+}
+
+/* ------------ media query ----------- */
+@media (max-width: 600px) {
+  .all-workimg {
+    display: block;
+  }
+
+  .workimg {
+    width: 327px;
+    height: 399px;
+    margin-left: -10px;
+    margin-top: 50px;
+  }
+
+  .workh1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .allwork {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .workp {
+    font-size: 14.74px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+
+  .workbrief {
+    width: 130px;
+    height: 46px;
+  }
+
+  .workshout {
+    width: 36.18px;
+    height: 35.49px;
+    padding: 7px;
+  }
+
+  .workshout-1 {
+    width: 46.91px;
+    height: 46px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+
+  .allimgwork {
+  display: flex;
+  margin-top: 20px;
+}
+
+.playh {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.allplay {
+    margin-top: 50px;
+}
+
+.playp {
+line-height: 24px;
+font-weight: 400;
+}
+
+}
