@@ -2,9 +2,9 @@ import React from "react";
 import "../Footer/Footer.css";
 import Portal from "../../assets/Portal.png";
 import Lin from "../../assets/Lin.png";
-import facebook from "../../assets/Facebook.png"
-import twitter from "../../assets/Twitter.png";
-import instagram from "../../assets/Instagram.png";
+import facebook from "../../assets/facebook.png"
+import twitter from "../../assets/twitter.png";
+import instagram from "../../assets/instagram.png";
 
 const Footer = () => {
   return (
