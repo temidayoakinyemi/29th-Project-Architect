@@ -1,6 +1,6 @@
 import React from "react";
 import "../LatestWork/LatestWork.css";
-import ArrowUpRight from "../../assets/arrowupright.png";
+import ArrowUpRight from "../../assets/Arrowupright.png";
 
 const LatestWork = () => {
   return (
