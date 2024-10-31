@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import "../Our Services/OurServices.css";
-import ArrowUpRight from "../../assets/arrowupright.png";
+import "../OurServices/OurServices.css";
+import ArrowUpRight from "../../assets/Arrowupright.png";
 import Bank from "../../assets/bank.png";
 import Sparkle from "../../assets/sparkle.png";
 import PaintRoller from "../../assets/paintroller.png";
