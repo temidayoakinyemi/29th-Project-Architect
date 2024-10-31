@@ -1,5 +1,5 @@
 import React from "react";
-import "../Our Workflow/OurWorkflow.css";
+import "../OurWorkflow/OurWorkflow.css";
 import Workflow from "../../assets/workflow.png";
 import Megaphone from "../../assets/megaphone.png";
 import ProjectorScreen from "../../assets/projectorscreen.png";
