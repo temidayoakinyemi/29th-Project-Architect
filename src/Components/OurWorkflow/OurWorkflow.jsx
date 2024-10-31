@@ -1,11 +1,11 @@
 import React from "react";
 import "../OurWorkflow/OurWorkflow.css";
-import Workflow from "../../assets/workflow.png";
-import Megaphone from "../../assets/megaphone.png";
-import ProjectorScreen from "../../assets/projectorscreen.png";
-import PresentationChart from "../../assets/presentationchart.png";
-import PaintRoller1 from "../../assets/paintroller1.png";
-import Play from "../../assets/play.png";
+import Workflow from "../../assets/Workflow.png";
+import Megaphone from "../../assets/Megaphone.png";
+import ProjectorScreen from "../../assets/ProjectorScreen.png";
+import PresentationChart from "../../assets/PresentationChart.png";
+import PaintRoller1 from "../../assets/PaintRoller1.png";
+import Play from "../../assets/Play.png";
 
 const OurWorkflow = () => {
   return (
@@ -111,12 +111,12 @@ const OurWorkflow = () => {
                 </h2>
                 <h3 className="numh3">Profit Gained</h3>
               </div>
-            <p className="nump1">
-              With high dedication, our designs <br /> are always perfectly to
-              the applied <br />
-              container which also pixel
-            </p>
-          </div>
+              <p className="nump1">
+                With high dedication, our designs <br /> are always perfectly to
+                the applied <br />
+                container which also pixel
+              </p>
+            </div>
           </div>
         </div>
       </div>

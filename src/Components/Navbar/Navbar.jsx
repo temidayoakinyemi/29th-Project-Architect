@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
-import line from "../../assets/line.png";
-import menu_icon from "../../assets/menu-icon.png";
+import logo from "../../assets/Logo.png";
+import line from "../../assets/Line.png";
+import menu_icon from "../../assets/Menu-icon.png";
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);

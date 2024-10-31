@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import "../OurServices/OurServices.css";
 import ArrowUpRight from "../../assets/Arrowupright.png";
-import Bank from "../../assets/bank.png";
-import Sparkle from "../../assets/sparkle.png";
-import PaintRoller from "../../assets/paintroller.png";
+import Bank from "../../assets/Bank.png";
+import Sparkle from "../../assets/Sparkle.png";
+import PaintRoller from "../../assets/PaintRoller.png";
 import next_icon from "../../assets/next-icon.png";
 import back_icon from "../../assets/back-icon.png";
 
