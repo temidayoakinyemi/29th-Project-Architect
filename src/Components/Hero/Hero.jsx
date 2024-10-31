@@ -13,7 +13,7 @@ const Hero = () => {
             We turn your dream to reality and we’ll never stop <br /> until
             you're satisfied with the result
           </p>
-          <button className="hero-btn">CONTACT US</button>
+          <button className="hero-btn">Get in Touch</button>
       </div>
       <img src={House} alt="" className="house" />
     </div>

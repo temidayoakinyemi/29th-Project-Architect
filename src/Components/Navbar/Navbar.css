@@ -52,9 +52,8 @@ nav ul li {
 }
 
 .menu-icon {
-    display: none;
+  display: none;
 }
-
 
 /* ----- media query ----------- */
 
@@ -64,8 +63,8 @@ nav ul li {
   }
 
   .ptag {
-   margin-left: 10px;
-   font-size: 15px;
+    margin-left: 10px;
+    font-size: 15px;
   }
 
   .line {

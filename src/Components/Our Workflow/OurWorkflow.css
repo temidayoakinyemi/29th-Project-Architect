@@ -142,23 +142,316 @@
   }
 
   .allimgwork {
-  display: flex;
-  margin-top: 20px;
-}
+    display: flex;
+    margin-top: 20px;
+  }
 
-.playh {
+  .playh {
     font-size: 24px;
     font-weight: 500;
     line-height: 32px;
-}
+  }
 
-.allplay {
+  .allplay {
     margin-top: 50px;
+  }
+
+  .playp {
+    line-height: 24px;
+    font-weight: 400;
+  }
 }
 
-.playp {
-line-height: 24px;
-font-weight: 400;
+@media (max-width: 800px) {
+  .all-workimg {
+    display: block;
+  }
+
+  .workimg {
+    width: 327px;
+    height: 399px;
+    margin-left: -10px;
+    margin-top: 50px;
+  }
+
+  .workh1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .allwork {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .workp {
+    font-size: 14.74px;
+    font-weight: 400;
+    margin-right: 20px;
+  }
+
+  .workbrief {
+    width: 130px;
+    height: 46px;
+  }
+
+  .workshout {
+    width: 36.18px;
+    height: 35.49px;
+    padding: 7px;
+  }
+
+  .workshout-1 {
+    width: 46.91px;
+    height: 46px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 0px;
+  }
+
+  .allimgwork {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .playh {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .allplay {
+    margin-top: 50px;
+  }
+
+  .playp {
+    line-height: 24px;
+    font-weight: 400;
+  }
 }
 
+.numh1 {
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 76px;
+  margin-top: 100px;
+}
+
+.nump {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28px;
+  color: #191919;
+  opacity: 80%;
+  margin-top: 20px;
+}
+
+.numbtn {
+  background: #0f0800;
+  color: #fff;
+  width: 149px;
+  height: 56px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.numh2 {
+  font-size: 47px;
+  font-weight: 600;
+  line-height: 56.4px;
+  color: #000000;
+}
+
+.numk {
+  color: aquamarine;
+}
+
+.numh3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33.6px;
+  margin-top: 20px;
+}
+
+.nump1 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #191919;
+  opacity: 70%;
+}
+
+.allnum {
+  display: flex;
+}
+
+.allnum1 {
+  display: flex;
+}
+
+.allinner {
+  display: block;
+  margin-top: 100px;
+  margin-left: 110px;
+}
+
+.allnum2 {
+  display: flex;
+}
+
+.allnum3 {
+  display: block;
+}
+
+.allnum4 {
+  display: block;
+}
+
+/* ------------ media query ----------- */
+@media (max-width: 600px) {
+  .allnum {
+    display: block;
+  }
+
+  .allnum1 {
+    display: block;
+  }
+
+  .allinner {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .allnum2 {
+    display: block;
+  }
+
+  .allnum3 {
+    display: block;
+  }
+
+  .allnum4 {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .numh1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .nump {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 21px;
+  }
+
+  .numbtn {
+    display: none;
+  }
+
+  .allh1pnum {
+    display: block;
+  }
+
+  .nump1 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+  }
+
+  .numh2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.4px;
+  }
+
+  .numh3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .allnum {
+    display: block;
+  }
+
+  .allnum1 {
+    display: block;
+  }
+
+  .allinner {
+    display: flex;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .allnum2 {
+    display: block;
+  }
+
+  .allnum3 {
+    display: block;
+  }
+
+  .allnum4 {
+    display: block;
+  }
+
+  .numh1 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .nump {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 21px;
+  }
+
+  .numbtn {
+    display: none;
+  }
+
+  .allh1pnum {
+    display: block;
+  }
+
+  .nump1 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+  }
+
+  .numh2 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.4px;
+  }
+
+  .numh3 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+    margin-top: 10px;
+  }
 }

@@ -119,7 +119,12 @@ const OurServices = () => {
         </ul>
       </div>
       <div className="image-all">
-        <img src={next_icon} alt="" className="next-btn" onClick={slideForward} />
+        <img
+          src={next_icon}
+          alt=""
+          className="next-btn"
+          onClick={slideForward}
+        />
         <img
           src={back_icon}
           alt=""
