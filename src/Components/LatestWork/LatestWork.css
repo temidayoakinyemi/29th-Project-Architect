@@ -34,6 +34,7 @@
   margin-top: 70px;
   padding: 20px;
   cursor: pointer;
+  color: #ffffff99;
 }
 
 .latestdiv1 {
@@ -43,20 +44,22 @@
   margin-top: 10px;
   padding: 20px;
   cursor: pointer;
+  color: #ffffff99;
 }
 
 .latestdiv:hover {
   background-color: #191919;
+  color: #ffffff;
 }
 
 .latestdiv1:hover {
   background-color: #191919;
+  color: #ffffff;
 }
 
 .latestdivh {
   font-size: 40px;
   line-height: 48px;
-  color: #ffffff99;
   font-weight: 500;
   margin-left: 30px;
 }
@@ -76,7 +79,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
-  color: #ffffff66;
   margin-left: 30px;
   margin-top: 10px;
 }
@@ -85,7 +87,6 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.6px;
-  color: #ffffff66;
 }
 
 .latestpp {
@@ -137,6 +138,7 @@
     margin-top: 70px;
     padding: 20px;
     cursor: pointer;
+      color: #ffffff99;
   }
 
   .latestdiv1 {
@@ -147,20 +149,22 @@
     margin-top: 10px;
     padding: 20px;
     cursor: pointer;
+      color: #ffffff99;
   }
 
   .latestdiv:hover {
     background-color: #191919;
+      color: #ffffff;
   }
 
   .latestdiv1:hover {
     background-color: #191919;
+      color: #ffffff;
   }
 
   .latestdivh {
     font-size: 18px;
     line-height: 21.6px;
-    color: #ffffff99;
     font-weight: 500;
     margin-left: 20px;
   }
@@ -177,40 +181,38 @@
   }
 
   .latestdivp {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.4px;
-  color: #ffffff66;
-  margin-left: 20px;
-  margin-top: 0px;
-}
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
 
-.latestdivpp {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.4px;
-  color: #ffffff66;
-}
+  .latestdivpp {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+  }
 
-.latestpp {
-  display: flex;
-  justify-content: space-between;
-}
+  .latestpp {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.latestbtn {
-  background: #ffffff;
-  color: #191919;
-  width: 106.43px;
-  height: 40px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
-  margin-left: 35%;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 40px;
-}
+  .latestbtn {
+    background: #ffffff;
+    color: #191919;
+    width: 106.43px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-left: 35%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -241,6 +243,7 @@
     margin-top: 70px;
     padding: 20px;
     cursor: pointer;
+      color: #ffffff99;
   }
 
   .latestdiv1 {
@@ -251,20 +254,22 @@
     margin-top: 10px;
     padding: 20px;
     cursor: pointer;
+      color: #ffffff99;
   }
 
   .latestdiv:hover {
     background-color: #191919;
+      color: #ffffff;
   }
 
   .latestdiv1:hover {
     background-color: #191919;
+      color: #ffffff;
   }
 
   .latestdivh {
     font-size: 18px;
     line-height: 21.6px;
-    color: #ffffff99;
     font-weight: 500;
     margin-left: 20px;
   }
@@ -281,38 +286,36 @@
   }
 
   .latestdivp {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.4px;
-  color: #ffffff66;
-  margin-left: 20px;
-  margin-top: 0px;
-}
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
 
-.latestdivpp {
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 14.4px;
-  color: #ffffff66;
-}
+  .latestdivpp {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+  }
 
-.latestpp {
-  display: flex;
-  justify-content: space-between;
-}
+  .latestpp {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.latestbtn {
-  background: #ffffff;
-  color: #191919;
-  width: 106.43px;
-  height: 40px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
-  margin-left: 35%;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 40px;
-}
+  .latestbtn {
+    background: #ffffff;
+    color: #191919;
+    width: 106.43px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    margin-left: 35%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+  }
 }

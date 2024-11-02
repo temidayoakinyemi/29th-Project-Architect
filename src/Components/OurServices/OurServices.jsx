@@ -4,8 +4,6 @@ import ArrowUpRight from "../../assets/ArrowUpRight.png";
 import Bank from "../../assets/Bank.png";
 import Sparkle from "../../assets/Sparkle.png";
 import PaintRoller from "../../assets/PaintRoller.png";
-import next_icon from "../../assets/next-icon.png";
-import back_icon from "../../assets/back-icon.png";
 
 const OurServices = () => {
   const slider = useRef();
@@ -119,18 +117,8 @@ const OurServices = () => {
         </ul>
       </div>
       <div className="image-all">
-        <img
-          src={next_icon}
-          alt=""
-          className="next-btn"
-          onClick={slideForward}
-        />
-        <img
-          src={back_icon}
-          alt=""
-          className="back-btn"
-          onClick={slideBackward}
-        />
+        <button className="forward" onClick={slideForward}></button>
+        <button className="backward" onClick={slideBackward}></button>
       </div>
     </div>
   );
